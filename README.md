@@ -45,7 +45,9 @@ Server runs on http://localhost:3000 by default.
 | PUT    | `/api/users/:id`    | Update a user     |
 | DELETE | `/api/users/:id`    | Delete a user     |
 
-##Validation Error Response:
+## Validation Error Response
+
+```json
 {
   "status": false,
   "message": "Validation failed",
@@ -54,6 +56,19 @@ Server runs on http://localhost:3000 by default.
     { "field": "password", "message": "Password must be at least 8 characters" }
   ]
 }
+
+
+Key points:  
+1. Start with three backticks ``` and optionally put the language (`json` in this case).  
+2. Paste your JSON inside.  
+3. Close with three backticks ```.  
+
+When you view the README on GitHub, it will show it as a nicely formatted JSON block.  
+
+Do you want me to update your README.md snippet with all your **API responses** properly formatted this way?
+
+
+
 
 
 

@@ -24,8 +24,7 @@ app/domains/
 
 
 ## Installation
-
-1. Clone the repository:
+  Clone the repository:
   https://github.com/rajeshbytes/node-laravel-style.git
   cd node-ddd-boilerplate
 

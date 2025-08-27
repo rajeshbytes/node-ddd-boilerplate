@@ -1,4 +1,4 @@
-# Node DDD Boilerplate
+# Node laravel style (DDD)
 
 A **Domain-Driven Design (DDD)** boilerplate for **Node.js** inspired by **Laravel** architecture.  
 Ideal for building scalable, maintainable RESTful APIs with **Express** and **Objection.js**.

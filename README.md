@@ -26,9 +26,8 @@ app/domains/
 ## Installation
 
 1. Clone the repository:
-
-git clone https://github.com/rajeshbytes/node-ddd-boilerplate.git
-cd node-ddd-boilerplate
+  https://github.com/rajeshbytes/node-laravel-style.git
+  cd node-ddd-boilerplate
 
 npm install
 
@@ -39,5 +38,13 @@ npx knex migrate:latest
 node server.js
 
 Server runs on http://localhost:3000 by default.
+
+| Method | Endpoint            | Description       |
+| ------ | ------------------- | ----------------- |
+| GET    | `/api/users`        | List all users    |
+| POST   | `/api/users/create` | Create a new user |
+| PUT    | `/api/users/:id`    | Update a user     |
+| DELETE | `/api/users/:id`    | Delete a user     |
+
 
 

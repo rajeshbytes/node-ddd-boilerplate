@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/var/www/html/leadcrm-node/storage/logs/.587941ece3de26e7efbe8402173ce2039a0a8591-audit.json",
+    "files": [
+        {
+            "date": 1756279962120,
+            "name": "/var/www/html/leadcrm-node/storage/logs/application-2025-08-27.log",
+            "hash": "59dfe65516add972a803ec93dbaa607789a2935ab00b4e410acd8df981a27838"
+        }
+    ],
+    "hashType": "sha256"
+}

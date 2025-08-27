@@ -1,0 +1,11 @@
+2025-08-27 16:27:39 [error]: TypeError: schemaClass[methodName] is not a function
+    at /var/www/html/leadcrm-node/middleware/validate.js:9:51
+    at Layer.handleRequest (/var/www/html/leadcrm-node/node_modules/router/lib/layer.js:152:17)
+    at next (/var/www/html/leadcrm-node/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/var/www/html/leadcrm-node/node_modules/router/lib/route.js:117:3)
+    at handle (/var/www/html/leadcrm-node/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/var/www/html/leadcrm-node/node_modules/router/lib/layer.js:152:17)
+    at /var/www/html/leadcrm-node/node_modules/router/index.js:295:15
+    at processParams (/var/www/html/leadcrm-node/node_modules/router/index.js:582:12)
+    at next (/var/www/html/leadcrm-node/node_modules/router/index.js:291:5)
+    at Function.handle (/var/www/html/leadcrm-node/node_modules/router/index.js:186:3)

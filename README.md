@@ -1,0 +1,62 @@
+# Node DDD Boilerplate
+
+A **Domain-Driven Design (DDD)** boilerplate for **Node.js** inspired by **Laravel** architecture.  
+Ideal for building scalable, maintainable RESTful APIs with **Express** and **Objection.js**.
+
+---
+
+## Features
+
+- Laravel-style folder structure:
+  - `app/Domains/<Domain>` for Controllers, Models, DataObjects
+- Request **validation** with [Zod](https://github.com/colinhacks/zod)
+- **Database migrations** using [Knex.js](http://knexjs.org/)
+- ORM with [Objection.js](https://vincit.github.io/objection.js/)
+- Middleware for **request validation** and **error handling**
+- Ready-to-use **REST API endpoints**
+- Easy integration with **MySQL** or other SQL databases
+
+---
+
+## Folder Structure
+
+app/
+└── Domains/
+└── User/
+├── Controllers/
+├── Models/
+└── DataObjects/
+
+routes/
+└── api.js
+
+middleware/
+└── validate.js
+
+database/
+├── migrations/
+└── seeds/
+
+server.js
+knexfile.js
+package.json
+.env.example
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/rajeshbytes/node-ddd-boilerplate.git
+cd node-ddd-boilerplate
+
+npm install
+
+cp .env.example .env
+# Edit .env with your database credentials and other settings
+
+npx knex migrate:latest
+node server.js
+
+Server runs on http://localhost:3000 by default.
+
+

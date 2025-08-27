@@ -45,5 +45,16 @@ Server runs on http://localhost:3000 by default.
 | PUT    | `/api/users/:id`    | Update a user     |
 | DELETE | `/api/users/:id`    | Delete a user     |
 
+##Validation Error Response:
+{
+  "status": false,
+  "message": "Validation failed",
+  "errors": [
+    { "field": "email", "message": "Invalid email format" },
+    { "field": "password", "message": "Password must be at least 8 characters" }
+  ]
+}
+
+
 
 

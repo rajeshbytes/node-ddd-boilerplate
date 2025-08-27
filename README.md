@@ -6,6 +6,7 @@ Ideal for building scalable, maintainable RESTful APIs with **Express** and **Ob
 ---
 
 ## Features
+app/domains/
 
 - Laravel-style folder structure:
   - `app/Domains/<Domain>` for Controllers, Models, DataObjects
@@ -20,27 +21,7 @@ Ideal for building scalable, maintainable RESTful APIs with **Express** and **Ob
 
 ## Folder Structure
 
-app/
-└── Domains/
-└── User/
-├── Controllers/
-├── Models/
-└── DataObjects/
 
-routes/
-└── api.js
-
-middleware/
-└── validate.js
-
-database/
-├── migrations/
-└── seeds/
-
-server.js
-knexfile.js
-package.json
-.env.example
 
 ## Installation
 

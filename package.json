@@ -11,13 +11,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
     "knex": "^3.1.0",
+    "module-alias": "^2.2.3",
     "mysql2": "^3.14.3",
     "objection": "^3.1.5",
     "winston": "^3.17.0",
     "winston-daily-rotate-file": "^5.0.0",
     "zod": "^4.1.3"
+  },
+  "_moduleAliases": {
+    "@domains": "app/domains",
+    "@config": "config",
+    "@middleware":"app/middlewares",
+    "@helpers":"app/helpers"
   }
 }

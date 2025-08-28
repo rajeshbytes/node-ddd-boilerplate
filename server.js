@@ -1,10 +1,14 @@
+require('module-alias/register');
+
 const express = require('express');
 const app = express();
 require('dotenv').config();
-const knex = require('./config/database'); 
+const knex = require('@config/database'); 
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+
 
 const apiRoutes = require('./routes/api');
 app.use('/api', apiRoutes);
